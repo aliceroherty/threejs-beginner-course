@@ -37,13 +37,13 @@ const init = () => {
 
 	scene.add(pointLight, ambientLight);
 
-	// Setup light helper to show where lights are in scene
-	const lightHelper = new THREE.PointLightHelper(pointLight);
-	scene.add(lightHelper);
+	// // Setup light helper to show where lights are in scene
+	// const lightHelper = new THREE.PointLightHelper(pointLight);
+	// scene.add(lightHelper);
 
-	// Setup grid helper to display grid in scene
-	const gridHelper = new THREE.GridHelper(200, 50);
-	scene.add(gridHelper);
+	// // Setup grid helper to display grid in scene
+	// const gridHelper = new THREE.GridHelper(200, 50);
+	// scene.add(gridHelper);
 
 	// Add orbit controls to allow the camera to be moved with the mouse
 	controls = new OrbitControls(camera, renderer.domElement);
